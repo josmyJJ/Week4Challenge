@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resumes</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/homeStyle.css">
+
+
+
+    <script>
+
+
+            window.onload = function () {
+                document.getElementById("myForm").onsubmit = function () {
+                    var firstN = document.getElementById("first");
+                    var lastN = document.getElementById("last");
+                    firstN.value;
+                    lastN.value;
+                    //(".user").append("<h3>" +  firstN.value + lastN.value + "</h3>");
+                    alert('User information received: ' + firstN.value + ' ' + lastN.value); //comment/remove this line
+
+                    //return true;
+                };
+            };
+
+    </script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="index.html">RESUME.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="employer.html">Employer</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <form class="form-inline my-2 my-lg-0 ml-3">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit"><a href="index.html"> Search</a>
+                </button>
+            </form>
+        </ul>
+    </div>
+</nav>
+<div class="container bg-light background">
+    <div class="emptySpace1"></div>
+    <h1 class="pt-5 text-warning font-weight-bold border-bottom">Resumes</h1>
+    <div class="row py-5 nameLists">
+        <div class="col-sm-6">
+            <h3><a href="https://acujwal.github.io/" target="_blank">Acujwal AC <img class="rounded-circle"
+                                                                     src="https://gravatar.com/avatar/6fb348371dedb180642692a4ed7685f5 "
+                                                                     alt="Ujwal AC"/></a></h3>
+            <h3><a href="https://celinejoanz.github.io/" target="_blank">Chidimma Uba <img class="rounded-circle"
+                                                                           src="https://s.gravatar.com/avatar/753a73f0b65d4f7913f20a5e981e0397?s=200"
+                                                                           alt="Chidimma Uba"></a></h3>
+            <h3><a href="https://diwakar1.github.io/" target="_blank">Diwaker Sharma <img class="rounded-circle"
+                                                                          src="https://gravatar.com/avatar/7a2faee04e5a03582de755b7ee6249b3"
+                                                                          alt="Diwakar Sharma"></a></h3>
+            <h3><a href="https://nosukja99.github.io/" target="_blank">Hyejeong Kim <img class="rounded-circle"
+                                                                         src="http://gravatar.com/avatar/a4a6227e8de485098395607980cc1cd4"
+                                                                         alt="Hyejeong Kim"/></a></h3>
+            <h3><a href="https://josmyjj.github.io/fiveYearResume/" target="_blank">Josemy Joseph <img class="rounded-circle"
+                                                                                       src="https://en.gravatar.com/avatar/d83c9bca2b678b35596a8d288d74a466"
+                                                                                       alt="Josemy Joseph"></a></h3>
+        </div>
+        <div class="col-sm-6 user">
+            <h3><a href="https://dulalkabin99.github.io/" target="_blank">Kabin Dulal <img class="rounded-circle"
+                                                                           src="https://gravatar.com/avatar/fc6d726504540a3c29a5c91bd62ad239"
+                                                                           alt="Kabin Dulal"></a></h3>
+            <h3><a href="https://jnohtr.github.io/GitHub%20Pages.html" target="_blank">Lisa OH <img class="rounded-circle"
+                                                                                    src="https://jnohtr.github.io/paw%20the%20cat%20cafe.png"
+                                                                                    alt="hello kitty"></a></h3>
+            <h3><a href="https://romielisse.github.io/index.html" target="_blank">Melissa Fung <img class="rounded-circle"
+                                                                                    src="http://gravatar.com/avatar/3148aca0c7c7f199706d72f0b01e3774?s=200"
+                                                                                    alt="Melissa Fung"></a></h3>
+            <h3><a href="https://kasturipratik.github.io/kasturipraitk.github.io/" target="_blank">Partik Parajuli <img
+                    class="rounded-circle" src="http://gravatar.com/avatar/992d5c62ff3ac14902268865e5a778ea?s=200"
+                    alt="Partik Parajuli"></a></h3>
+            <h3><a href="https://thinzar24.github.io/" target="_blank">Thinzar Thein <img class="rounded-circle"
+                                                                          src="https://en.gravatar.com/avatar/f88d6a6bd36b282356d716d6d00f2eed"
+                                                                          alt="Thinzar Thein"></a></h3>
+        </div>
+    </div>
+
+
+    <h4 class="text-secondary">Add a user</h4>
+    <form id="myForm">
+        <div class="row">
+            <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="First name" id="first">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="Last name" id="last">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="GitHub website link" id="link">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <input type="text" class="form-control" placeholder="Gravatar link" id="gravatarLink">
+            </div>
+        </div>
+        <br>
+        <button class="btn btn-info" type="submit" value="Submit" id="btn">Submit</button>
+    </form>
+
+
+
+    <!--<button id="btn2">Add a User</button>-->
+
+
+
+    <div class="emptySpace1"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>

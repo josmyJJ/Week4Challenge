@@ -1,0 +1,59 @@
+body {
+    background: url("../img/homeb1.jpg");
+    background-size: cover;
+    font-family: 'Slabo 27px', serif;
+}
+
+nav {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+
+}
+
+.container {
+    opacity: .9;
+}
+
+.background {
+    opacity: .95;
+}
+
+.emptySpace {
+    height: 170px;
+}
+
+.emptySpace1 {
+    height: 80px;
+}
+
+button a {
+    color: #17a2b8;
+}
+
+button a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.border-bottom {
+    padding: 10px;
+}
+
+.nameLists h3 {
+    padding: 10px;
+    font-size: x-large;
+}
+
+.nameLists h3 a {
+    color: #17a2b8;
+}
+
+.nameLists h3 a:hover {
+    color: #ffc107;
+}
+
+.rounded-circle {
+    width: 50px;
+}
